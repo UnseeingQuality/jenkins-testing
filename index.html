@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test site for Jenkins</title>
+    <style>
+        body{
+            background-color: blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>
+            Заголовок сайта
+        </h1>
+    </header>
+
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Dicta molestias, deleniti velit facilis et quas vitae nemo
+        fugiat est debitis quam fuga modi dolor officiis sint repudiandae
+        incidunt dolorem maxime.
+    </p>
+    <img src="/miles-morales.webp"/>
+    <form onSubmit={handleSubmit}>
+        <label htmlFor="username">Username:</label>
+        <input
+          type="text"
+          name="username"
+          id="username"
+          value={username}
+        />
+
+        <label htmlFor="password">Password:</label>
+        <input
+          type="password"
+          name="password"
+          id="password"
+          value={password}
+        />
+
+        <button type="submit">Submit</button>
+      </form>
+    <footer>
+        Created by &copy;Unseeing-Quality
+    </footer>
+</body>
+</html>
